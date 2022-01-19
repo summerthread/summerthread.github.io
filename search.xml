@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<h1 id="Hexo搭建个人博客"><a href="#Hexo搭建个人博客" class="headerlink" title="Hexo搭建个人博客"></a>Hexo搭建个人博客</h1><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><p>1.安装nodejs</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://nodejs.cn/ 官网下载安装</span><br></pre></td></tr></table></figure><p>2.安装git</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://git-scm.com/downloads官网下载git，安装</span><br></pre></td></tr></table></figure><p>3.使用npm安装Hexo</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h4 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h4><p>1.创建博客（进入制定文件夹）</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo i blog  //i init的缩写  blog是项目名</span><br><span class="line">cd blog  // 切换到站点根目录</span><br><span class="line">hexo g // generetor缩写</span><br><span class="line">hexo s // server 缩写</span><br></pre></td></tr></table></figure><p>2.打开浏览器输入localhost:4000查看：（成功能正确查看到博客）</p><h4 id="发布第一篇博客"><a href="#发布第一篇博客" class="headerlink" title="发布第一篇博客"></a>发布第一篇博客</h4><p>1.创建新博客</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;博客名字&quot; // n new的缩写</span><br><span class="line">// 创建成功后会根据博客名字生成md文件，md文件目录为/blog/source/_posts</span><br></pre></td></tr></table></figure><p>2.清理缓存</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><p>3.生成静态页面</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g // 生成静态页面</span><br></pre></td></tr></table></figure><p>4.本地运行，查看效果</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s // 运行，访问localhost：4000</span><br></pre></td></tr></table></figure><p>5.上传git</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d // 部署</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
       
     </entry>
     
